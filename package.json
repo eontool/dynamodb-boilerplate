@@ -1,0 +1,31 @@
+{
+  "name": "dynamodb-boilerplate",
+  "version": "1.0.0",
+  "description": "AWS DynamoDB example project",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/cors": "0.0.33",
+    "@types/express": "^4.0.33",
+    "gulp": "^3.9.1",
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eontool/dynamodb-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eontool/dynamodb-boilerplate/issues"
+  },
+  "homepage": "https://github.com/eontool/dynamodb-boilerplate#readme"
+}
