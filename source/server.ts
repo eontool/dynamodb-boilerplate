@@ -1,13 +1,15 @@
 console.log("starting server...");
-import * as Express from "express";
-import * as bodyParser from "body-parser";
+import * as Express from 'express';
+import * as bodyParser from 'body-parser';
 import * as cors from 'cors';
+import * as AWS from 'aws-sdk';
 
 let app: Express.Express = Express();
 let route: Express.Router = Express.Router();
 
-app.use(cors());
 
+
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use('/', route);
